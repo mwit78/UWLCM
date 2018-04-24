@@ -49,7 +49,7 @@ void setopts_micro(
   rt_params.cloudph_opts.dry_distros.push_back({
     .mean_rd = 0.05e-6,
     .sdev_rd = 1.5,
-    .N_stp   = 80e6,
+    .N_stp   = 110e6,
     .chem_b  = .55
   });
 /*
